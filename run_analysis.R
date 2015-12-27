@@ -100,5 +100,5 @@ tidyDataSet  = merge(tidyDataSet,activityType,by='activityId',all.x=TRUE);
 tidyDataSet
 
 # Finally, create a new file
-write.table(tidyDataSet, './tidyDataSet.txt',row.names=TRUE,sep='\t');
+write.table(tidyDataSet, './tidyDataSet.txt',row.names=FALSE,sep='\t');
 
